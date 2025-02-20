@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <!-- search box -->
+      <div class="search">
+        <input type="text" placeholder="Enter City name" spellcheck="false" />
+        <i
+          class="fa-solid fa-magnifying-glass fa-xl"
+          style="color: #5e5858"
+        ></i>
+      </div>
+
+      <!-- weather temp -->
+      <div class="weather">
+        <div class="weather-img">
+          <img class="weater-icon" src="./images/rain.png.png" alt="waether-icon">
+          
+        </div>
+        <h1 class="weather-temp">22</h1>
+          <h2 class="weather-city">New york</h2>
+      </div>
+
+      <!-- another details -->
+    <div class="details">
+      <div class="humidity">
+        <img src="https://cdn-icons-png.flaticon.com/512/3262/3262966.png" alt="">
+        <div>
+          <h4 class="humidity-percent">50</h4>
+        <h4>Humdity</h4>
+        </div>
+      </div>
+      <div class="wind">
+        <img src="https://cdn-icons-png.flaticon.com/512/7713/7713453.png" alt="">
+       <div style="padding-left: 10px;">
+        <h4 class="wind-speed">12 km/h</h4>
+        <h4>Wind</h4>
+       </div>
+      </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
