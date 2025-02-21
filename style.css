@@ -19,7 +19,7 @@ body {
   background-color: #3eecac;
   background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
   color: #fff;
-  padding: 40px 35px;
+  padding: 40px 25px;
   border-radius: 20px;
 }
 
@@ -34,11 +34,11 @@ body {
   border: 0;
   outline: 0;
   background: #ebfffc;
-  padding: 10px 15px;
+  padding: 5px 10px;
   height: 60px;
   flex: 1;
   border-radius: 50px;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 18px;
   width: 100%;
 }
