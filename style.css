@@ -28,13 +28,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+
+#search-input{
+  padding: 6px 24px;
 }
 
 .search input {
   border: 0;
   outline: 0;
   background: #ebfffc;
-  padding: 5px 10px;
+  /* padding: ; */
   height: 60px;
   flex: 1;
   border-radius: 50px;
